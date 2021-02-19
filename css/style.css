@@ -1,19 +1,97 @@
 *{
     box-sizing: border-box;
 }
+body{
+    max-width: 60%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+#compain{
+    float:right;
+    margin-top: -20px;
+    margin-right: -90px;
+}
+#pic1{float:left;}
+nav h3{text-align: left; font-family:Verdana;}
+nav p {
+    margin: -40px;
+    text-align: left;
+    margin-top: -30px;
+    }
+
+    nav #list1 li{
+        display: inline-block;
+    }
+    nav #list1 
+    {
+        position: relative;
+        margin-right: -700px;
+    }
+    hr {
+        height: 10px;
+        background-color: darkgrey;
+    }
+    section p {
+    text-align: left;
+    margin-top: -30px;
+    }
+    section  h2{
+        font-family: monospace;
+        text-align: left;
+        margin-top: 20px;
+    }
+    div #second{
+    text-align: left;
+    text-indent: 20px;
+    font-family:'Times New Roman';
+    }
+    
+    .post-forms{
+        
+        background-image: url('../img/list-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 3px 4px 5px chocolate;
+        
+    }
+    div .post-checkBoxLeft{
+        text-align:justify;
+        float: left;
+        padding: 30px;
+   
+    }
+
+    div .post-checkBoxRight{
+        text-align: justify;
+        float: right;
+        padding: 30px;
+    }
+    h4{
+        margin-left: -500px;
+    }
+    div .post-vanessa p{
+        margin-top: -20px;
+        padding-right:30px;
+    }
+    /*
+    .post-left{
+    float:left;
+    }
+    .post-right{
+        
+        float: right;
+    }
+header{
+    margin-bottom: 100px;
+}
 
 nav{
     
     margin-bottom: 20px;
 }
 
-nav ul{
-    position: relative;
-}
-nav ul li{
-    display: inline-block;
-    padding: 20px;
-}
 
 #container{
 
@@ -31,3 +109,40 @@ padding-left: 5px;
     float: right;
     margin-bottom: 50px;
 }
+#pic2{
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 90px;
+}
+
+#first {
+    margin-left: 100px;
+
+}
+#second{
+    margin-left: 100px;
+    font-family:'Times New Roman';
+    text-indent: 20px;
+    text-align: left;
+}
+#pic3{
+    margin-left: 100px;
+}
+
+
+
+
+*/
+.post-special{
+    text-decoration: line-through;
+}
+.btn{
+    float: right;
+    background-color: brown;
+    color: white;
+    border: none;
+    padding:10px;
+    margin-top: -37px;
+    margin-right: -100px;
+}
+
